@@ -20,9 +20,7 @@
             "outputPath": "dist/todo",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": [],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
@@ -37,9 +35,11 @@
             "server": "src/main.server.ts",
             "prerender": false,
             "ssr": {
-              "entry": "server.ts"
+              "entry": "src/server.ts"
             },
-            "externalDependencies": [""]
+            "externalDependencies": [
+              ""
+            ]
           },
           "configurations": {
             "production": {

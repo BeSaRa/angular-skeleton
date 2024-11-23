@@ -38,9 +38,6 @@
       "@/components/*": [
         "./src/components/*"
       ],
-      "@/configs/*": [
-        "./src/app-configs/*"
-      ],
       "@/constants/*": [
         "./src/constants/*"
       ],

@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core'
-import { RouterLink, RouterOutlet } from '@angular/router'
+import { RouterOutlet } from '@angular/router'
 import { ExampleService } from '@/services/example.service'
 import { AsyncPipe } from '@angular/common'
 import { BehaviorSubject, delay, merge, switchMap, tap } from 'rxjs'
@@ -7,8 +7,7 @@ import { Example } from '@/models/example'
 
 @Component({
   selector: 'app-home',
-  standalone: true,
-  imports: [RouterOutlet, RouterLink, AsyncPipe],
+  imports: [RouterOutlet, AsyncPipe],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
